@@ -2,7 +2,7 @@ import { FastifyPluginAsync } from 'fastify'
 
 
 const users: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
-  
+
   fastify.get('/users', async function (request, reply) {
     return { users: true }
   })

@@ -1,6 +1,6 @@
 import { FastifyPluginAsync } from "fastify";
 
-import { schema } from "../schemas/organizations/organizations";
+import { schema } from "../schemas/organizations";
 import type { OrganizationType } from "../schemas/types";
 
 const organizations: FastifyPluginAsync = async (
